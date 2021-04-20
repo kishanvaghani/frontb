@@ -1,0 +1,6 @@
+{{properityId}}
+<button class="btn btn-primary" (click)="onSelectNext()">Select Next Page</button>
+<br>
+<button class="btn btn-primary" routerLink="/properity-detail/1" >1</button>
+<button class="btn btn-primary" routerLink="/properity-detail/2" >2</button>
+<button class="btn btn-primary" [routerLink]="['/properity-detail','3']" routerLinkActive="router-link-active"  >3</button>

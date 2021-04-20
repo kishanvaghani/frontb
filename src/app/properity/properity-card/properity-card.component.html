@@ -1,0 +1,16 @@
+<div class="card " >
+    <img class="card-img-top" src="../../../assets/{{Properity?.Img}}" alt="Card image cap">
+    <ul class="list-inline text-center">
+      <li class="list-inline-item">
+        <button class="btn btn-primary" routerLink="/properity-detail/{{Properity.Id}} " routerLinkActive="router-link-active" >E</button>
+      </li>
+      <li class="list-inline-item">
+        <button class="btn btn-primary">C</button>
+      </li>
+    </ul>
+    <div class="card-body">
+      <h5 class="card-title">{{Properity.Id}}  {{Properity.Name}} </h5>
+      <p class="card-text"> {{Properity.Type}}</p>
+      <a href="#" class="btn btn-primary"> {{Properity.Price}}</a>
+    </div>
+  </div>

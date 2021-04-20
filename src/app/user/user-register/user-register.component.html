@@ -1,0 +1,46 @@
+<div class="row">
+    <div class="col-6 m-auto">
+    <div class="card m-auto">
+      <div class="card-header">
+        Register
+      </div>
+      <div class="card-body">
+        <form (ngSubmit)='onSubmit(Form)' #Form="ngForm" >
+          <div class="form-group col-12">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" ngModel name="Name" #propName='ngModel' required minlength="5">
+              <span *ngIf="!propName.valid && propName.touched" class="error-block">
+                <span *ngIf="propName.errors.required">Please provide name</span>
+                <span *ngIf="propName.errors.minlength">Name must be atleast 5 char long</span>
+              </span>
+          </div>
+  
+          <div class="form-group col-12">
+            <label for="email" class="form-label">Email</label>
+            <input type="text" class="form-control" ngModel name="email" required >
+          </div>
+  
+          <div class="form-group col-12">
+            <label for="passwrod" class="form-label">Password</label>
+            <input type="text" class="form-control" ngModel name="password" required minlength="5">
+          </div>
+  
+          <div class="form-group col-12">
+            <label for="cpassword" class="form-label">Confirm Password</label>
+            <input type="text" class="form-control" ngModel name="cpassword" required minlength="5">
+          </div>
+  
+          <div class="form-group col-12">
+            <label for="mobile" class="form-label">Mobile</label>
+            <input type="text" class="form-control" ngModel name="mobile" required minlength="5"> 
+          </div>
+  
+          <div class="form-group col-12">
+            <button type="submit" class="btn btn-primary">Save</button>
+            <button type="reset" class="btn btn-secondary ml-2">Cancel</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    </div>
+  </div>

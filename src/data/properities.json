@@ -1,0 +1,50 @@
+[
+    {
+      "Id":1,
+      "sellRent":1,
+      "Type":"House",
+      "Name":"Vaghani's House",
+      "Price":1000,
+      "Img":"about-2.png"
+    },
+    {
+      "Id":2,
+      "sellRent":1,
+      "Type":"House",
+      "Name":"Bahala's House",
+      "Price":20000,
+      "Img":"about-3.png"
+    },
+    {
+      "Id":3,
+      "sellRent":1,
+      "Type":"House",
+      "Name":"Graeham's House",
+      "Price":120050,
+      "Img":"dia-2.jpg"
+    },
+    {
+      "Id":4,
+      "sellRent":1,
+      "Type":"House",
+      "Name":"king's House",
+      "Price":175000,
+      "Img":"dia-3.jpg"
+    },
+    {
+      "Id":5,
+      "sellRent":1,
+      "Type":"House",
+      "Name":"elon's House",
+      "Price":175000,
+      "Img":"dia-3.jpg"
+    },
+    {
+      "Id":6,
+      "sellRent":2,
+      "Type":"House",
+      "Name":"bagah's House",
+      "Price":175000,
+      "Img":"dia-3.jpg"
+    }
+]
